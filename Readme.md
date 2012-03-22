@@ -3,6 +3,12 @@ htmlpath
 
 Command-line utility to perform XPath queries on HTML or XML documents.
 
+Example
+-------
+
+    $ htmlpath //a/@href somefile.html
+    http://foo.example.com
+
 Usage
 -----
 
