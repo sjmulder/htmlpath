@@ -1,7 +1,7 @@
 htmlpath
 ========
 
-Command-line utility to perform an XPath query on HTML or XML documents.
+Command-line utility to perform XPath queries on HTML or XML documents.
 
 Usage
 -----
