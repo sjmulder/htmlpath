@@ -6,7 +6,7 @@ from argparse        import ArgumentParser, FileType
 from scrapy.http     import TextResponse
 from scrapy.selector import XPathSelector
 
-parser = ArgumentParser(description = "Perform an XPath expression on an HTML or XML document.")
+parser = ArgumentParser(description = "Perform an XPath query on an HTML or XML document.")
 parser.add_argument("expression",
                     help = "an XPath expression")
 parser.add_argument("file",
