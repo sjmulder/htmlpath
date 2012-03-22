@@ -6,17 +6,17 @@ Command-line utility to perform XPath queries on HTML or XML documents.
 Example
 -------
 
-    $ htmlpath //a/@href somefile.html
+    $ htmlpath somefile.html //a/@href
     http://foo.example.com
 
 Usage
 -----
 
-    usage: htmlpath [-h] expression [file]
+    usage: htmlpath [-h] [file] expression
 
     positional arguments:
-      expression  an XPath expression
       file        an HTML or XML file (defaults to stdin)
+      expression  an XPath expression
     
     optional arguments:
       -h, --help  show this help message and exit
